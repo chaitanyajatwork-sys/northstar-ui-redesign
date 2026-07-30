@@ -1,5 +1,7 @@
 # Northstar University — Website UI Redesign
 
+##Live Link-https://chaitanyajatwork-sys.github.io/northstar-ui-redesign/#
+
 A responsive website redesign created for a **UI/UX Design Internship Task**. The goal was to transform a basic, outdated university website into a modern, clear and user-friendly experience.
 
 ## Project Goal
@@ -25,11 +27,6 @@ The interface uses an editorial-inspired visual system with warm neutral backgro
 - Vanilla JavaScript
 - Google Fonts (DM Sans & Manrope)
 - Unsplash images (remote image URLs)
-
-## Run Locally
-1. Download or clone this repository.
-2. Open `index.html` in a browser.
-3. No build tools or dependencies are required.
 
 ## Files
 - `index.html` — page structure and content
