@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Northstar University website UI redesign internship project" />
+  <title>Northstar University — UI Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Northstar University home">
+      <span class="brand-mark">N</span>
+      <span>Northstar <b>University</b></span>
+    </a>
+    <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#programs">Programs</a><a href="#campus">Campus</a><a href="#stories">Stories</a>
+      <a class="nav-cta" href="#apply">Apply now <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Admissions 2026 · Applications open</span>
+        <h1>Learn boldly.<br><span>Build what’s next.</span></h1>
+        <p>A modern learning community where ambitious students turn ideas into skills, careers and real-world impact.</p>
+        <div class="hero-actions"><a class="btn primary" href="#programs">Explore programs →</a><a class="btn ghost" href="#campus">Discover campus</a></div>
+        <div class="trust"><div class="avatars"><span>AR</span><span>SK</span><span>MJ</span></div><p><b>4.8/5</b><br>Student experience</p></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo main-photo"><div class="photo-label"><span>●</span> Future-ready learning</div></div>
+        <div class="floating-card"><strong>92%</strong><span>placement support<br>success rate</span></div>
+        <div class="mini-photo"></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="University statistics">
+      <div><strong>25+</strong><span>Industry-led programs</span></div><div><strong>8:1</strong><span>Student–mentor ratio</span></div><div><strong>60+</strong><span>Hiring partners</span></div><div><strong>18</strong><span>Student communities</span></div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div><span class="eyebrow">Why Northstar</span><h2>Education designed around <em>where the world is going.</em></h2></div>
+      <p>We replaced one-size-fits-all learning with hands-on projects, close mentorship and flexible pathways that help every student build a distinct edge.</p>
+    </section>
+
+    <section class="features section">
+      <article class="feature dark reveal"><span class="icon">✦</span><h3>Learn by doing</h3><p>Build real products, solve industry briefs and graduate with work you are proud to show.</p><a href="#programs">See our approach →</a></article>
+      <article class="feature lime reveal"><span class="icon">↗</span><h3>Career connected</h3><p>Get portfolio reviews, interview practice and guidance from people working in the field.</p><a href="#stories">Explore outcomes →</a></article>
+      <article class="feature light reveal"><span class="icon">◎</span><h3>Mentors who know you</h3><p>Small cohorts and accessible faculty mean more feedback, direction and meaningful support.</p><a href="#about">Meet the community →</a></article>
+    </section>
+
+    <section class="section programs" id="programs">
+      <div class="section-head"><div><span class="eyebrow">Popular programs</span><h2>Find your direction.</h2></div><a href="#">View all programs →</a></div>
+      <div class="program-grid">
+        <article class="program reveal"><div class="program-art art-one"><span>01</span></div><div class="program-body"><span>Technology</span><h3>B.Tech Computer Science</h3><p>AI · Software Engineering · Data Science</p><a href="#apply">Explore program ↗</a></div></article>
+        <article class="program reveal"><div class="program-art art-two"><span>02</span></div><div class="program-body"><span>Design</span><h3>B.Des Interaction Design</h3><p>UX Research · Product Design · Visual Systems</p><a href="#apply">Explore program ↗</a></div></article>
+        <article class="program reveal"><div class="program-art art-three"><span>03</span></div><div class="program-body"><span>Business</span><h3>BBA Digital Business</h3><p>Strategy · Entrepreneurship · Marketing</p><a href="#apply">Explore program ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="campus section" id="campus">
+      <div class="campus-image reveal"><div class="campus-badge">Campus life<br><strong>Beyond classrooms.</strong></div></div>
+      <div class="campus-copy reveal"><span class="eyebrow">Your second home</span><h2>A campus built for <em>curiosity.</em></h2><p>Studios, labs, sports, clubs and open spaces create room to experiment, collaborate and recharge.</p><ul><li><span>01</span> Creative & innovation labs</li><li><span>02</span> Sports & wellness facilities</li><li><span>03</span> Clubs, events & communities</li></ul><a class="btn dark-btn" href="#">Explore campus →</a></div>
+    </section>
+
+    <section class="stories section" id="stories">
+      <span class="eyebrow">Student stories</span><blockquote>“I came here knowing what I liked. I’m leaving knowing <em>what I can build.</em>”</blockquote><div class="student"><div class="student-avatar">AS</div><p><strong>Aarav Sharma</strong><br>B.Tech CSE · Class of 2026</p></div>
+    </section>
+
+    <section class="apply section" id="apply">
+      <div><span class="eyebrow">Start your journey</span><h2>Your next chapter<br>starts <em>here.</em></h2></div><div><p>Applications for the 2026 intake are now open. Take the first step toward a future you can shape.</p><a class="btn primary" href="mailto:admissions@example.com">Apply for admission →</a></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">N</span><span>Northstar <b>University</b></span></a><p>Concept UI redesign · Internship Task 1</p><p>© 2026 Northstar University</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
