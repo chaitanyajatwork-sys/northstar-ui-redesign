@@ -9,4 +9,4 @@ document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click
   nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent='☰';
 }));
 const observer = new IntersectionObserver(entries => entries.forEach(e => {if(e.isIntersecting)e.target.classList.add('visible')}), {threshold:.12});
-document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el);
